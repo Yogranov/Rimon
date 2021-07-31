@@ -1,0 +1,178 @@
+
+/*#login-nav input { margin-bottom: 15px; }*/
+
+
+.navbar-default {
+    margin: 0 !important;
+    font-size: 14px;
+}
+
+.navbar-default .btn-success {
+    float: left !important;
+}
+
+.navbar .navbar-default .container-fluid {
+    background: rgba(248, 248, 248, 0.51);
+}
+
+.container-fluid .logo{
+    float: none;
+    direction: ltr !important;
+    margin-top:  5px;
+    padding-left: 50px;
+    z-index:2;
+    position: absolute;
+    right: 85%;
+}
+
+.collapsing{
+    width: 100%;
+    padding: 0;
+}
+
+.collapsing .btn-default {
+    margin: 0 auto;
+    float: none;
+}
+
+#navbar-collapse-2 {
+    font-size: 18px;
+}
+
+.navbar li a:hover {
+    background-color: #ededed !important;
+}
+
+.navbar-nav .btn:hover,
+.navbar-nav .btn:focus {
+    color: #FFFFFF;
+    background-position: 0 -60px !important;
+}
+
+@media screen and (max-width: 1200px) {
+    .navbar .container-fluid li a{
+        font-size: 16px;
+        padding: 15px 10px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .navbar .container-fluid li a{
+        font-size: 15px;
+        padding: 15px 7px;
+    }
+
+    .navbar-right {
+        padding: 0;
+        margin: 0 auto;
+    }
+    .nav-login-button {
+
+    }
+
+    .container-fluid .logo img {
+        display: none;
+    }
+
+    .collapse {
+        padding: 0;
+    }
+}
+
+.form-inline{
+    margin-right: 40px !important;
+}
+
+@media screen and (max-width: 768px) {
+    .form-inline{
+        margin: 30px 0 !important;
+    }
+
+    .form-inline .btn-success{
+        width: 80%;
+        position: absolute;
+        top: 25%;
+        right: 10%;
+        float: none;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+}
+
+.navbar-brand { position: relative; z-index: 2; }
+
+.navbar-nav.navbar-right .btn { position: relative; z-index: 2; padding: 4px 20px; margin: 10px auto; transition: transform 0.3s; }
+
+/* .navbar .navbar-collapse { position: relative; overflow: hidden !important; } */
+.navbar .navbar-collapse .navbar-right > li:last-child { padding-left: 22px; }
+
+.navbar .nav-collapse { position: absolute; z-index: 1; top: 0; left: 0; right: 0; bottom: 0; margin: 0; padding-right: 120px; padding-left: 80px; width: 100%; }
+.navbar.navbar-default .nav-collapse { background-color: #f8f8f8; }
+.navbar.navbar-inverse .nav-collapse { background-color: #222; }
+.navbar .nav-collapse .navbar-form { border-width: 0; box-shadow: none; margin-right: 20px}
+.nav-collapse>li { float: right; }
+
+.btn.btn-circle { border-radius: 50px; }
+.btn.btn-outline { background-color: transparent; }
+
+.navbar-nav.navbar-right .btn:not(.collapsed) {
+    background-color: rgb(111, 84, 153);
+    border-color: rgb(111, 84, 153);
+    color: rgb(211, 32, 17);
+}
+
+.navbar-nav.navbar-right .btn:not(.collapsed):focus {
+    color: rgb(211, 32, 17);
+}
+
+.navbar.navbar-default .nav-collapse,
+.navbar.navbar-inverse .nav-collapse {
+    height: auto !important;
+    transition: transform 0.3s;
+    transform: translate(0px,-50px);
+
+}
+.navbar.navbar-default .nav-collapse.in,
+.navbar.navbar-inverse .nav-collapse.in {
+    transform: translate(0px,0px);
+}
+
+
+@media screen and (max-width: 767px) {
+    .navbar .navbar-collapse .navbar-right > li:last-child { padding-left: 55px; padding-right: 15px; }
+    .navbar-collapse {overflow: hidden}
+    .navbar .nav-collapse { margin: 7.5px auto; padding: 0; }
+    .navbar .nav-collapse .navbar-form { margin: 0; }
+    .nav-collapse>li { float: none; }
+
+    .navbar.navbar-default .nav-collapse,
+    .navbar.navbar-inverse .nav-collapse {
+        transform: translate(-100%,0px);
+    }
+    .navbar.navbar-default .nav-collapse.in,
+    .navbar.navbar-inverse .nav-collapse.in {
+        transform: translate(0px,0px);
+    }
+
+    .navbar.navbar-default .nav-collapse.slide-down,
+    .navbar.navbar-inverse .nav-collapse.slide-down {
+        transform: translate(0px,-100%);
+    }
+    .navbar.navbar-default .nav-collapse.in.slide-down,
+    .navbar.navbar-inverse .nav-collapse.in.slide-down {
+        transform: translate(0px,0px);
+    }
+
+    .container-fluid .logo {
+        display: none;
+    }
+
+    .nav a{
+        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    }
+
+    .dropdown-menu li {
+        border: none !important;
+    }
+}
